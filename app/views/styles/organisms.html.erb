@@ -56,16 +56,16 @@
     <div>
       <ul class="bare-list float-grid css-grid">
         <li>
-          <%= render(partial: 'idea_card') %>
+          <%= render(partial: 'idea_card', locals: { card_title: 'See the Northern lights' }) %>
         </li>
         <li>
-          <%= render(partial: 'idea_card') %>
+          <%= render(partial: 'idea_card', locals: { card_title: 'See the Northern lights on monday and the Southern lights on tuesday if I am quick enough' }) %>
         </li>
         <li>
-          <%= render(partial: 'idea_card') %>
+          <%= render(partial: 'idea_card', locals: { card_title: 'See the Northern lights' }) %>
         </li>
         <li>
-          <%= render(partial: 'idea_card') %>
+          <%= render(partial: 'idea_card', locals: { card_title: 'See the Northern lights' }) %>
         </li>
       </ul>
     </div>
