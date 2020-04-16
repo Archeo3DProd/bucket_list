@@ -1,3 +1,6 @@
 
-
+<% if(current == true) %>
+    <li><%= link_to(nav_title, nav_uri, class: 'current') %></li>
+<% else %>
     <li><%= link_to(nav_title, nav_uri) %></li>
+<% end %>

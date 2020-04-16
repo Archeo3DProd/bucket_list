@@ -6,9 +6,9 @@
     </p>
     <nav>
       <ul class="sub-navigation">
-        <%= render(partial: 'sub_nav_item', locals: { nav_title: 'Atoms', nav_uri: '/styles/atoms'}) %>
-        <%= render(partial: 'sub_nav_item', locals: { nav_title: 'Molecules', nav_uri: '/styles/molecules'}) %>
-        <%= render(partial: 'sub_nav_item', locals: { nav_title: 'Organisms', nav_uri: '/styles/organisms'}) %>
+        <%= render(partial: 'sub_nav_item', locals: { nav_title: 'Atoms', nav_uri: '/styles/atoms', current: true }) %>
+        <%= render(partial: 'sub_nav_item', locals: { nav_title: 'Molecules', nav_uri: '/styles/molecules', current: false }) %>
+        <%= render(partial: 'sub_nav_item', locals: { nav_title: 'Organisms', nav_uri: '/styles/organisms', current: false }) %>
         <li><a href="#nolink">Templates</a></li>
         <li><a href="#nolink">Pages</a></li>
       </ul>
