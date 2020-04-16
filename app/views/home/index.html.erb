@@ -16,15 +16,13 @@
   <div class="content-wrapper">
     <h2>Some ideas</h2>
     <ul class="bare-list float-grid css-grid">
-      <li class="card">
-        <%= render(partial: 'styles/idea_card') %>
-      </li>
-      <li class="card">
-        <%= render(partial: 'styles/idea_card') %>
-      </li>
-      <li class="card">
-        <%= render(partial: 'styles/idea_card') %>
-      </li>
+      <% ["Eat a cheese fondue on the top of the Matterhorn", "Build a swimming pool in the desert",
+        "See the Northern lights on monday and the Southern lights on tuesday if I am quick enough",
+        "Take a walk in Mexico City and come back alive"].each do |idea_title| %>
+        <li>
+          <%= render(partial: 'idea_card', locals: { card_title: idea_title }) %>
+        </li>
+      <% end %>
     </ul>
   </div>
   <div class="see-more">
