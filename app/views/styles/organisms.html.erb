@@ -55,18 +55,14 @@
     <h2>02. Ideas</h2>
     <div>
       <ul class="bare-list float-grid css-grid">
+      <% ["Eat a cheese fondue on the top of the Matterhorn", "Build a swimming pool in the desert",
+        "See the Northern lights on monday and the Southern lights on tuesday if I am quick enough",
+        "Take a walk in Mexico City and come back alive"].each do |idea_title| %>
         <li>
-          <%= render(partial: 'idea_card', locals: { card_title: 'See the Northern lights' }) %>
+          <%= render(partial: 'idea_card', locals: { card_title: idea_title }) %>
         </li>
+        <% end %>
         <li>
-          <%= render(partial: 'idea_card', locals: { card_title: 'See the Northern lights on monday and the Southern lights on tuesday if I am quick enough' }) %>
-        </li>
-        <li>
-          <%= render(partial: 'idea_card', locals: { card_title: 'See the Northern lights' }) %>
-        </li>
-        <li>
-          <%= render(partial: 'idea_card', locals: { card_title: 'See the Northern lights' }) %>
-        </li>
       </ul>
     </div>
   </section>
