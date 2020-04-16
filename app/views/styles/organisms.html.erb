@@ -2,9 +2,9 @@
   <div>
     <nav>
       <ul class="sub-navigation">
-        <li><%= link_to('Atoms', '/styles/atoms') %></li>
-        <li><%= link_to('Molecules', '/styles/molecules') %></li>
-        <li><a href="organisms.html" class="current">Organisms</a></li>
+        <%= render(partial: 'sub_nav_item', locals: { nav_title: 'Atoms', nav_uri: '/styles/atoms'}) %>
+        <%= render(partial: 'sub_nav_item', locals: { nav_title: 'Molecules', nav_uri: '/styles/molecules'}) %>
+        <%= render(partial: 'sub_nav_item', locals: { nav_title: 'Organisms', nav_uri: '/styles/organisms'}) %>
         <li><a href="#nolink">Templates</a></li>
         <li><a href="#nolink">Pages</a></li>
       </ul>
@@ -55,12 +55,12 @@
     <h2>02. Ideas</h2>
     <div>
       <ul class="bare-list float-grid css-grid">
-      <% ["Eat a cheese fondue on the top of the Matterhorn", "Build a swimming pool in the desert",
-        "See the Northern lights on monday and the Southern lights on tuesday if I am quick enough",
-        "Take a walk in Mexico City and come back alive"].each do |idea_title| %>
-        <li>
-          <%= render(partial: 'idea_card', locals: { card_title: idea_title }) %>
-        </li>
+        <% ["Eat a cheese fondue on the top of the Matterhorn", "Build a swimming pool in the desert",
+          "See the Northern lights on monday and the Southern lights on tuesday if I am quick enough",
+          "Take a walk in Mexico City and come back alive"].each do |idea_title| %>
+          <li>
+            <%= render(partial: 'idea_card', locals: { card_title: idea_title }) %>
+          </li>
         <% end %>
         <li>
       </ul>
