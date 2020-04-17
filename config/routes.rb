@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   get 'styles/molecules'
   get 'styles/organisms'
 
-  get '/ideas/index'
+  get 'ideas/index'
 end
