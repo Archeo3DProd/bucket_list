@@ -11,9 +11,7 @@
       </div>
       <div class="content-wrapper">
         <ul class="bare-list float-grid css-grid">
-            <% ["Eat a cheese fondue on the top of the Matterhorn",
-                "Build a swimming pool in the desert",
-                "Take a walk in Mexico City and come back alive"].each do |idea_title| %>
+          <% @ideas.each do |idea_title| %>
               <li>
                 <%= render(partial: 'idea_card', locals: { card_title: idea_title }) %>
               </li>
