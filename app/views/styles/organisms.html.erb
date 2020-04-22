@@ -59,7 +59,7 @@
           "See the Northern lights on monday and the Southern lights on tuesday if I am quick enough",
           "Take a walk in Mexico City and come back alive"].each do |idea_title| %>
           <li>
-            <%= render(partial: 'idea_card', locals: { card_title: idea_title }) %>
+            <%= render(partial: 'idea_card', locals: { card_title: idea_title, done_count: 51245 }) %>
           </li>
         <% end %>
         <li>
