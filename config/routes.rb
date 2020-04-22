@@ -10,4 +10,7 @@ Rails.application.routes.draw do
   get 'ideas/index'
   get 'ideas/new'
   post 'ideas/create'
+
+  get 'account/ideas'
+
 end
