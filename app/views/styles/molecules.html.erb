@@ -35,8 +35,7 @@
       <%= render(partial: 'idea_card',
                 locals: { card_title: 'See the Northern lights',
                           done_count: 326,
-                          photo_url: 'http://fpoimg.com/255x170'
-      %>
+                          photo_url: 'http://fpoimg.com/255x170' }) %>
   </section>
   <section class="sg-section" id="logo">
     <h2>02. Logo</h2>
@@ -126,9 +125,11 @@
       <div class="card__footer">
         <div>
           <button class="card__btn card__like delta" data-like="see-the-northern-lights">
+            <!--
             <svg class="icon-heart" role="presentation">
               <use xlink:href="images/icons-defs.svg#heart"></use>
             </svg>
+            -->
             Like
           </button>
         </div>
@@ -138,9 +139,11 @@
       <div class="card__footer">
         <div>
           <button class="card__btn card__like delta" data-like="see-the-northern-lights">
+            <!--
             <svg class="icon-heart icon-heart--liked" role="presentation">
               <use xlink:href="images/icons-defs.svg#heart"></use>
             </svg>
+            -->
             Liked
           </button>
         </div>

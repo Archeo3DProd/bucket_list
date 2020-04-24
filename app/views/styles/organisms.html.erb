@@ -60,10 +60,7 @@
           "Take a walk in Mexico City and come back alive"].each do |idea_title| %>
           <li>
             <%= render(partial: 'idea_card',
-                       locals: { card_title: idea_title,
-                                 done_count: 51245,
-                                 photo_url: 'http://fpoimg.com/255x170' })
-            %>
+                       locals: { card_title: idea_title, done_count: 51245, photo_url: 'http://fpoimg.com/255x170' }) %>
           </li>
         <% end %>
         <li>
