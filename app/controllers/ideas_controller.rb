@@ -18,6 +18,8 @@ class IdeasController < ApplicationController
   end
 
   def edit
+    id = params[:id]
+    @idea = Idea.find(id)
   end
 
   def update
