@@ -5,6 +5,10 @@ class IdeasController < ApplicationController
     @ideas = Idea.all
   end
 
+  def show
+    @idea = Idea.find(params[:id])
+  end
+
   def new
   end
 
@@ -29,7 +33,7 @@ class IdeasController < ApplicationController
     idea.done_count = params[:done_count]
     idea.photo_url = params[:photo_url]
     idea.save!
-    
+
     redirect_to account_ideas_path
   end
 end

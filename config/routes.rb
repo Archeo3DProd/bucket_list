@@ -15,6 +15,8 @@ Rails.application.routes.draw do
 
   patch 'ideas/:id', to: 'ideas#update', as: 'idea'
 
+  get 'ideas/:id', to: 'ideas#show', as: 'show_idea'
+
   get 'account/ideas'
 
 end
