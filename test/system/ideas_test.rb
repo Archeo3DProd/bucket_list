@@ -24,4 +24,22 @@ class IdeasTest < ApplicationSystemTestCase
     assert page.has_content?('Win the Lauberhorn downhill')
     assert page.has_content?('Be a web developer')
   end
+
+  test 'edit idea' do
+    idea = Idea.new
+    idea.save!
+
+    visit(edit_idea_path(idea))
+
+    fill_in('done_count', with: 777)
+    fill_in('title', with: 'Edit Test Title')
+
+    click_on 'Update'
+
+    click_on('Edit Test Title')
+
+    assert page.has_content?('Edit Test Title')
+
+    assert page.has_content?('777 have done this')
+  end
 end
