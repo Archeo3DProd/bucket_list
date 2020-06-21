@@ -11,21 +11,15 @@ class SimpleNavigationsTest < ApplicationSystemTestCase
 
   test "style guide navigation" do
     visit('/')
-    sleep(2.seconds)
     click_on('Styleguide', match: :first)
-    sleep(2.seconds)
     assert page.has_content?('Atoms')
     assert page.has_content?('Molecules')
     assert page.has_content?('Organisms')
     click_on('Molecules', match: :first)
-    sleep(2.seconds)
     assert page.has_content?('Card')
-    sleep(2.seconds)
     click_on('Organisms', match: :first)
-    sleep(2.seconds)
     assert page.has_content?('Create goal')
     click_on('My Bucket List', match: :first)
     assert page.has_content?('Some ideas')
-    sleep(2.seconds)
   end
 end

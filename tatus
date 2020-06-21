@@ -1,0 +1,455 @@
+[33mcommit 252c2603c29a6333fd8475e830d854574f38cd1c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 24 20:09:39 2020 +0200
+
+    08. Testing dynamic values, task 2
+
+[33mcommit 8c4ebe3ac93a52205d7e5b3cecae9adee9b74a95[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 24 19:34:57 2020 +0200
+
+    08. Testing dynamic values, task 1
+
+[33mcommit 4e88dcef23e47cb0c892345a72d24120208776dc[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 24 19:15:23 2020 +0200
+
+    06. Testing views with Capybara, task 6
+
+[33mcommit 3ccf76c3acf8b848638f8673a854cc4f3ccfefd3[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 24 17:59:02 2020 +0200
+
+    06. Testing views with Capybara, task 5
+
+[33mcommit fca2d21a4e6669d8c2253c1c3badb57e8a70f91e[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 24 17:58:19 2020 +0200
+
+    06. Testing views with Capybara, task 4
+
+[33mcommit 6917dec960f8a89f7b6d29677a5b560a5c69786e[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 24 17:56:53 2020 +0200
+
+    06. Testing views with Capybara, task 3
+
+[33mcommit 5a4930143907b0ee41bbda1fc22ada9f06791396[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 24 17:55:58 2020 +0200
+
+    06. Testing views with Capybara, task 2
+
+[33mcommit 74b160c479bbc95791f9136a9a2971eb6b751da0[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 24 17:54:35 2020 +0200
+
+    06. Testing views with Capybara, task 1
+
+[33mcommit 89a46699f6f34139d5b01412915bc68612225f61[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 24 15:24:39 2020 +0200
+
+    14. Updating a record from a form, task 4
+
+[33mcommit 08f1961d67bb6654a4785262ff981c7dec23dc7d[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 24 15:22:27 2020 +0200
+
+    14. Updating a record from a form, task 3
+
+[33mcommit e14a09192b97201090acf8c9f731f423832d680f[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 24 15:15:38 2020 +0200
+
+    14. Updating a record from a form, task 2
+
+[33mcommit b6e03809cbdd0d9945027266cd859da6cc4bc35b[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 24 15:06:49 2020 +0200
+
+    14. Updating a record from a form, task 1
+
+[33mcommit d15fcaf36598cbcb2b69fc1f6b6b1e7e658507f7[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Wed Apr 22 19:58:54 2020 +0200
+
+    12. Extending an existing model, task 7
+
+[33mcommit 12642d1c9bd8693cf632fde73656dba82c12a5ec[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Wed Apr 22 19:30:24 2020 +0200
+
+    12. Extending an existing model, task 6
+
+[33mcommit 97876164a8a2b0e8fe17dfe25526113063f8a1af[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Wed Apr 22 19:27:56 2020 +0200
+
+    12. Extending an existing model, task 5
+
+[33mcommit 3f1b3878732eedad5bbf73c3dc1fddea0e3a0948[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Wed Apr 22 19:26:39 2020 +0200
+
+    12. Extending an existing model, task 4
+
+[33mcommit e7d7b66552020a6627383e29604f117e126c5d9b[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Wed Apr 22 19:17:33 2020 +0200
+
+    12. Extending an existing model, task 3
+
+[33mcommit 11c32d3afff17ba6d61e9e9d9b3760205256fc3c[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Wed Apr 22 18:59:33 2020 +0200
+
+    12. Extending an existing model, tasks 1-2
+
+[33mcommit 90d51402f52783d90cee90a3ef4045210ec13a1f[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Wed Apr 22 18:50:23 2020 +0200
+
+    11. Managing ideas, task 7
+
+[33mcommit 4b8048641b049f29c4477a8e3cf71c90b49c3bad[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Wed Apr 22 18:48:19 2020 +0200
+
+    11. Managing ideas, task 6
+
+[33mcommit 26a6030e7585fe52f8c5b3c8ae9b2254d3471a81[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Wed Apr 22 18:44:40 2020 +0200
+
+    11. Managing ideas, task 5
+
+[33mcommit 4a7930afe7ae15f37a5feb4e7c3d8b11188bb7da[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Wed Apr 22 18:39:58 2020 +0200
+
+    11. Managing ideas, task 4
+
+[33mcommit 11eda3b90ff951bba4d2841b65f4abb3d5773948[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Wed Apr 22 18:36:05 2020 +0200
+
+    11. Managing ideas, task 3
+
+[33mcommit c704e7332cd8aa0ae711f65443fd74087937eb62[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Wed Apr 22 18:35:09 2020 +0200
+
+    11. Managing ideas, task 2
+
+[33mcommit 4a93e566f8dbcde5f54acd7441efda0fce276b00[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Wed Apr 22 18:28:46 2020 +0200
+
+    11. Managing ideas, task 1
+
+[33mcommit e16f2119fb6d5c443ab66ee978dc859914a542b1[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Mon Apr 20 20:15:00 2020 +0200
+
+    06. Creating a new record from a forms, task 2
+
+[33mcommit 2b98abbd84ad8592b9eb0485217c748dea4709e2[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Mon Apr 20 20:12:59 2020 +0200
+
+    06. Creating a new record from a forms, task 1
+
+[33mcommit 2a8c34309553e13166aece6e9ca98922970c5caf[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Mon Apr 20 19:56:06 2020 +0200
+
+    04. Define models and create instances, task 5
+
+[33mcommit 85717d80423b2ace0f9e631816134f897322da2a[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Mon Apr 20 19:52:56 2020 +0200
+
+    04. Define models and create instances, task 4
+
+[33mcommit 995d19e054a2ca6dd50f74e1be2df66777baf91d[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Sat Apr 18 19:32:30 2020 +0200
+
+    04. Define models and create instances, task 3
+
+[33mcommit 549b3aeaf25bfb33270e414de68527ee99be5f14[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Sat Apr 18 19:18:14 2020 +0200
+
+    04. Define models and create instances, task 1
+
+[33mcommit 21f1e4fec243786555fcf83dc5ff617c1e54b0f4[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Sat Apr 18 18:24:17 2020 +0200
+
+    19. Posting a form, task 5
+
+[33mcommit 835a78e60bdc1e4fe0a74eee1a256addee0efda1[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Sat Apr 18 18:23:20 2020 +0200
+
+    19. Posting a form, task 4
+
+[33mcommit 4d033b2a17c3f374ba33222fd677bd0dd6d0bb13[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Sat Apr 18 18:05:26 2020 +0200
+
+    19. Posting a form, task 3
+
+[33mcommit 7fd42ccf240e6066aae6c6b58eea01229215822f[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Sat Apr 18 17:59:38 2020 +0200
+
+    19. Posting a form, task 2
+
+[33mcommit fe947dc265ad2d611c245f1e5c859c1a8e8261e9[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Sat Apr 18 17:58:29 2020 +0200
+
+    19. Posting a form, task 1
+
+[33mcommit c7d98365eadcf74de30ad10fac8b1ef45bd63385[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Sat Apr 18 17:48:14 2020 +0200
+
+    17. The controller params hash, task 3
+
+[33mcommit a54eb9c4427aeeac8bb7710c42136f238dd83286[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Sat Apr 18 17:40:48 2020 +0200
+
+    17. The controller params hash, task 2
+
+[33mcommit 7a1f6f0134728a1755a7a6e586914bd167552418[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Sat Apr 18 17:35:18 2020 +0200
+
+    17. The controller params hash, task 1
+
+[33mcommit 4155ad9fce1e336b9994d0237c1604c266376d1e[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 17 19:40:16 2020 +0200
+
+    12. More from helpers, task 7
+
+[33mcommit 8549b664f3344569279077a2bac24beb7cb4c840[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 17 19:37:31 2020 +0200
+
+    12. More from helpers, task 6
+
+[33mcommit a32517c8a61b7ecdf3c83b502ab95565a7b4de4e[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 17 19:05:59 2020 +0200
+
+    12. More from helpers, task 4
+
+[33mcommit 9114a7eb730cf31d154acb4a768889b73d6e788b[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 17 19:05:12 2020 +0200
+
+    12. More from helpers, task 4
+
+[33mcommit 6d9f5351e01b764d99197a6884574629ef864ccb[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 17 19:00:04 2020 +0200
+
+    12. More from helpers, task 4
+
+[33mcommit 66a0d033b55360e36a43c34f3025d7e832e2f935[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 17 18:57:28 2020 +0200
+
+    12. More from helpers, tasks 1 - 3
+
+[33mcommit 2872151a88ba928a833743b7581d6db86812acda[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 17 18:40:54 2020 +0200
+
+    09. Combining Rails helpers, task 4
+
+[33mcommit 6d6de148a216a5002311d328ca48d1ec828c0f18[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 17 18:37:33 2020 +0200
+
+    09. Combining Rails helpers, task 3
+
+[33mcommit b1f7c9f6aa23059c900839a6194b70a077888c1b[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 17 18:35:54 2020 +0200
+
+    09. Combining Rails helpers, task 2
+
+[33mcommit 0761dff225584f947674a196f81e66496e7e56f3[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 17 18:30:31 2020 +0200
+
+    09. Combining Rails helpers, task 1
+
+[33mcommit 52f75f548d3cb668325a8d70f01adeaaaa5371d4[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 17 15:02:59 2020 +0200
+
+    Build a route, action and view, task 6
+
+[33mcommit ee405feb0b4cc6fb03b0a1acbfa8e12c91c5e948[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 17 14:57:43 2020 +0200
+
+    Build a route, action and view, task 5
+
+[33mcommit bdfc00afbfab590ebfa9564f72a321ffe22a293f[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 17 14:47:56 2020 +0200
+
+    Build a route, action and view, task 4
+
+[33mcommit 8c9a1a4ee8e253f0923015c7cf479434365c7af6[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 17 14:42:03 2020 +0200
+
+    Build a route, action and view, task 2
+
+[33mcommit 3eab4d6ccfb31fc6ab6fa13858dec564701d7b50[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 17 14:31:41 2020 +0200
+
+    Build a route, action and view, task 1
+
+[33mcommit 4ca4da17accfc5a6df282c50cfe59e1503e86b53[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Thu Apr 16 17:49:38 2020 +0200
+
+    16. Conditional outputting, tasks 3 / 4
+
+[33mcommit 54af3d6c3ffba9d330d97095b7a5e869bd86b49a[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Thu Apr 16 17:39:34 2020 +0200
+
+    16. Conditional outputting, tasks 1 / 2
+
+[33mcommit 607e071f07c69c4447edf05cba2794191da98d92[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Thu Apr 16 15:21:25 2020 +0200
+
+    10. Iterative view, task 4 / 5
+
+[33mcommit a5ca2d85587a7c33f43498b36f346c1937e1d287[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Thu Apr 16 15:08:27 2020 +0200
+
+    10. Iterative view, task 3
+
+[33mcommit 6fef1f99e4d85ec60d304276526d7835dcb61186[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Thu Apr 16 15:05:47 2020 +0200
+
+    10. Iterative view, task 1
+
+[33mcommit bbaf1b9baac7d209c2af7ea47e074b42c54d0be1[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 10 19:08:51 2020 +0200
+
+    Prompt component for styleguide forms
+
+[33mcommit aea9b93eb83c9849a49faa181fa85b3e6a1d07bf[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 10 18:55:35 2020 +0200
+
+    Configurable title for idea cards
+
+[33mcommit 485b2613a746601112b7347edeec474f0a929c63[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 10 18:02:33 2020 +0200
+
+    Partials for styleguide buttons
+
+[33mcommit aeed6e234ea10ecc7b4c031e95aef9e8ac0904fd[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 10 16:49:20 2020 +0200
+
+    Replaces root link in application layout with link_to helper method
+
+[33mcommit 997b58042334d4863dab83accbf15cf531cabb52[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 10 16:39:01 2020 +0200
+
+    Replaces atoms and molecules links in organisms view with link_to helper method
+
+[33mcommit dce018c9870771ae6eae69a0e08b55257547e970[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 10 16:37:12 2020 +0200
+
+    Replaces atoms and organisms links in molecules view with link_to helper method
+
+[33mcommit e21d95a978ebf7e8f817d4b534e87980f32a8d90[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 10 16:35:00 2020 +0200
+
+    Replaces organisms link in atoms view with link_to helper method
+
+[33mcommit daf9330adb351c40ca2d12fc5bbffecfb6278829[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 10 16:33:56 2020 +0200
+
+    Replaces molecules link in atoms view with link_to helper method
+
+[33mcommit d679931d537b40320d0d5ca0e30d5e25e8b5a313[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Fri Apr 10 15:44:36 2020 +0200
+
+    09. Css, Sass and front end asstes (tasks 1-9) Corrections
+
+[33mcommit c6b8389d5eaef5909a1128557b67a653ba8f503e[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Thu Apr 9 19:16:29 2020 +0200
+
+    09. CSS, Sass and front end assets (tasks 6-9)
+
+[33mcommit 7de1a2696bea8b9261421028bae9b4a88069ef65[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Thu Apr 9 18:28:43 2020 +0200
+
+    09. CSS, Sass and front end assets (tasks 1-5)
+
+[33mcommit f21280456657fc29ee3b3bcb0ce08cb958ed44d9[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Thu Apr 9 17:35:20 2020 +0200
+
+    07. Create some partials
+
+[33mcommit 6a136037d3bab603dfec412ce6f5dcbbc1771756[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Thu Apr 9 17:06:43 2020 +0200
+
+    04. Create the style guide and homepage
+
+[33mcommit d31518dbc79648639a41e41598cdcdc07c1e6de7[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Thu Apr 9 15:43:15 2020 +0200
+
+    Updates a second view
+
+[33mcommit a8cfb2f4f1bc3bbff014aa4d5193f542ad00de70[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Thu Apr 9 15:41:07 2020 +0200
+
+    First edit i  a view
+
+[33mcommit 9db0616961152f25034483e1f3dcde5b4b723207[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Wed Apr 8 18:43:18 2020 +0200
+
+    Add static style guide
+
+[33mcommit 84fef56565f5a650ac956e89c01c9e621ff56f2a[m
+Author: Archoe3DProd <davet-philippe@bluewin.ch>
+Date:   Wed Apr 8 18:14:05 2020 +0200
+
+    First commit
