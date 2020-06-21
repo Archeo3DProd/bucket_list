@@ -13,12 +13,12 @@
           <h1 class="gamma"><%= @idea.title %></h1>
           <ul class="horizontal-list btn-group">
             <li>
-              <button class="btn delta" type="button">
+              <%= link_to(edit_idea_path(@idea), class: 'btn delta') do %>
                 <svg class="icon-check icon--sm" role="presentation">
                   <!-- <use xlink:href="images/icons-defs.svh#check"></use> -->
                 </svg>
                 Edit
-              </button>
+              <% end %>
             </li>
             <li>
               <button class="btn delta" type="button">
