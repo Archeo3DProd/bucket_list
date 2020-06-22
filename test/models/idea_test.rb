@@ -78,4 +78,30 @@ class IdeaTest < ActiveSupport::TestCase
 
     assert_equal Idea.search('title').length, 2
   end
+
+  test 'most_recent, no ideas' do
+    assert_empty Idea.most_recent()
+  end
+
+  test 'most_recent, two ideas' do
+    first_idea = Idea.new
+    first_idea.title = 'First idea title'
+    first_idea.save!
+    second_idea = Idea.new
+    second_idea.title = 'Second idea title'
+    second_idea.save!
+
+    assert_equal Idea.most_recent.length, 2
+    assert_equal Idea.most_recent.first, second_idea
+  end
+
+  test 'most_recent, six ideas' do
+    6.times do |i|
+      idea = Idea.new
+      idea.title = "Idea title #{i+1}"
+      idea.save!
+    end
+    assert_equal Idea.most_recent.length, 3
+    assert_equal Idea.most_recent.first.title, 'Idea title 6'
+  end
 end
