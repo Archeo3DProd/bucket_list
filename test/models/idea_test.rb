@@ -53,4 +53,29 @@ class IdeaTest < ActiveSupport::TestCase
     idea.save!
     refute_equal(idea.updated_at, first_updated_at)
   end
+
+  test 'one matching result' do
+    idea = Idea.new
+    idea.title = 'First title'
+    idea.save!
+    assert_equal Idea.search('title').length, 1
+  end
+
+  test 'No matching result' do
+    idea = Idea.new
+    idea.title = 'First title'
+    idea.save!
+    assert_empty Idea.search('football')
+  end
+
+  test 'two matching results' do
+    first_idea = Idea.new
+    first_idea.title = 'First title'
+    first_idea.save!
+    second_idea = Idea.new
+    second_idea.title = 'Second title'
+    second_idea.save!
+
+    assert_equal Idea.search('title').length, 2
+  end
 end
