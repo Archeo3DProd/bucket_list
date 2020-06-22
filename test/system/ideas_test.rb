@@ -62,6 +62,12 @@ class IdeasTest < ApplicationSystemTestCase
     assert page.has_content?('Climb Mont Blanc')
 
     refute page.has_content?('Visit Niagara Falls')
+  end
 
+  test 'no ideas found' do
+    visit (root_path)
+    fill_in('q', with: 'zzz')
+    click_on('Search', match: :first)
+    assert page.has_content?('No ideas found !')
   end
 end
