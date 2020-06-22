@@ -42,4 +42,26 @@ class IdeasTest < ApplicationSystemTestCase
 
     assert page.has_content?('777 have done this')
   end
+
+  test 'search' do
+    first_idea = Idea.new
+    first_idea.title = 'Climb Mont Blanc'
+    first_idea.save!
+
+    second_idea = Idea.new
+    second_idea.title = 'Visit Niagara Falls'
+    second_idea.save!
+
+    visit (root_path)
+
+    fill_in('q', with: 'Mont')
+    click_on('Search', match: :first)
+
+    assert current_path.include?(ideas_index_path)
+
+    assert page.has_content?('Climb Mont Blanc')
+
+    refute page.has_content?('Visit Niagara Falls')
+
+  end
 end
