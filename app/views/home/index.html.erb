@@ -16,18 +16,15 @@
   <div class="content-wrapper">
     <h2>Some ideas</h2>
     <ul class="bare-list float-grid css-grid">
-      <% ["Eat a cheese fondue on the top of the Matterhorn",
-          "Build a swimming pool in the desert",
-          "See the Northern lights on monday and the Southern lights on tuesday if I am quick enough",
-          "Take a walk in Mexico City and come back alive"].each do |idea_title|
-      %>
+      <% @ideas.each do |idea| %>
       <li>
         <%= render(partial: 'idea_card',
-                   locals: { card_title: idea_title,
-                             done_count: 1625,
-                             photo_url: 'http://fpoimg.com/255x170',
-                             idea: 1
-                           }) %>
+                   locals: { card_title: idea.title,
+                             done_count: idea.done_count,
+                             photo_url: idea.photo_url,
+                             idea: idea
+                           })
+        %>
       </li>
       <% end %>
     </ul>
