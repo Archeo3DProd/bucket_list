@@ -5,6 +5,6 @@ class Idea < ApplicationRecord
   end
 
   def self.search(search_term)
-    Idea.where('title LIKE ?', "%#{search_term}%")
+    Idea.where('title LIKE ?', "%#{search_term}%").or(where('description LIKE ?', "%#{search_term}%"))
   end
 end
