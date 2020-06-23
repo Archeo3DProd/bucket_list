@@ -13,10 +13,11 @@ class IdeasController < ApplicationController
   end
 
   def create
-    idea = Idea.new
-    idea.title = params[:title]
-    idea.done_count = params[:done_count]
-    idea.photo_url = params[:photo_url]
+    hash = { title: params[:title],
+             done_count: params[:done_count],
+             photo_url: params[:photo_url],
+             description: params[:description]}
+    idea = Idea.new(hash)
     idea.save!
     redirect_to ideas_index_path
   end
