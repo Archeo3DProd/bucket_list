@@ -104,4 +104,24 @@ class IdeaTest < ActiveSupport::TestCase
     assert_equal Idea.most_recent.length, 3
     assert_equal Idea.most_recent.first.title, 'Idea title 6'
   end
+
+  test 'only description match' do
+    idea = Idea.new
+    idea.title = 'Surfing in Portugal'
+    idea.description = 'See what Atlantic coast waves are like!'
+    idea.save!
+    assert_equal Idea.search('coast').length, 1
+  end
+
+  test 'description and title match' do
+    idea_1 = Idea.new
+    idea_1.title = 'Overnight hike in Switzerland'
+    idea_1.description = 'Stay in a Swiss refuge in the mountains'
+    idea_1.save!
+    idea_2 = Idea.new
+    idea_2.title = 'Hike the mountains in Italy'
+    idea_2.description = 'See the Dolomites and Italian Alps'
+    idea_2.save!
+    assert_equal Idea.search('mountains').length, 2
+  end
 end

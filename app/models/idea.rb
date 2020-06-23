@@ -5,6 +5,7 @@ class Idea < ApplicationRecord
   end
 
   def self.search(search_term)
-    Idea.where('title LIKE ?', "%#{search_term}%").or(where('description LIKE ?', "%#{search_term}%"))
+    wildcard_filter = "%#{search_term}%"
+    Idea.where('title LIKE ?', wildcard_filter).or(where('description LIKE ?', wildcard_filter))
   end
 end
