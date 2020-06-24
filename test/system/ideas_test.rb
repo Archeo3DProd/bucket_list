@@ -30,8 +30,8 @@ class IdeasTest < ApplicationSystemTestCase
 
     visit(edit_idea_path(idea))
 
-    fill_in('done_count', with: 777)
-    fill_in('title', with: 'Edit Test Title')
+    fill_in('Done count', with: 777)
+    fill_in('Title', with: 'Edit Test Title')
 
     click_on 'Update'
 
