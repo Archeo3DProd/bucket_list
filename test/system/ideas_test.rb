@@ -3,11 +3,10 @@ require "application_system_test_case"
 class IdeasTest < ApplicationSystemTestCase
 
   test 'create new idea' do
-    visit ('ideas/new')
+    visit (new_idea_path)
     fill_in 'title', with: 'Visit the Hermitage Museum'
     fill_in 'done_count', with: 6164
     click_on 'Create idea'
-    visit ('ideas/index')
     assert page.has_content?('Visit the Hermitage Museum')
   end
 
@@ -20,7 +19,7 @@ class IdeasTest < ApplicationSystemTestCase
     second_idea.title = 'Be a web developer'
     second_idea.save!
 
-    visit ('ideas/index')
+    visit (ideas_path)
     assert page.has_content?('Win the Lauberhorn downhill')
     assert page.has_content?('Be a web developer')
   end
@@ -57,7 +56,7 @@ class IdeasTest < ApplicationSystemTestCase
     fill_in('q', with: 'Mont')
     click_on('Search', match: :first)
 
-    assert current_path.include?(ideas_index_path)
+    assert current_path.include?(ideas_path)
 
     assert page.has_content?('Climb Mont Blanc')
 
@@ -65,7 +64,7 @@ class IdeasTest < ApplicationSystemTestCase
   end
 
   test 'no ideas found' do
-    visit (root_path)
+    visit (ideas_path)
     fill_in('q', with: 'zzz')
     click_on('Search', match: :first)
     assert page.has_content?('No ideas found !')
