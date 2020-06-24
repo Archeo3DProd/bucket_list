@@ -21,11 +21,4 @@ ActiveRecord::Schema.define(version: 2020_06_23_082347) do
     t.string "description"
   end
 
-  create_table "items", force: :cascade do |t|
-    t.string "name"
-    t.integer "quantiy"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
 end
