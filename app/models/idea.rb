@@ -3,6 +3,7 @@ class Idea < ApplicationRecord
   validates :title, presence: true
   validates :title, length: { maximum: 75 }
 
+
   def self.most_recent()
     Idea.all.order(created_at: :desc).limit(3)
   end
