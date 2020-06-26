@@ -35,7 +35,7 @@ class CommentTest < ActiveSupport::TestCase
 
   test 'comments are ordered correctly' do
     idea = Idea.new
-    idea.title = 'Oredered comments'
+    idea.title = 'Ordered comments'
     idea.save!
 
     comment_1 = Comment.new(body: 'This would be great fun')

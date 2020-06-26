@@ -7,9 +7,11 @@ Rails.application.routes.draw do
   get 'styles/molecules'
   get 'styles/organisms'
 
-  resources :ideas
+  resources :ideas do
+    resources :comments
+  end
 
-  
+
 
   get 'account/ideas'
 
