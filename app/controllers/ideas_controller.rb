@@ -7,6 +7,7 @@ class IdeasController < ApplicationController
 
   def show
     @idea = Idea.find(params[:id])
+    @comment = Comment.new
   end
 
   def new

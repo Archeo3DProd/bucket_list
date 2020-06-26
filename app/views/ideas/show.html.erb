@@ -59,5 +59,18 @@
         </div>
       </div>
     </div>
+    <div class="content-wrapper">
+      <div class="comments">
+        <h2 class="comments__title">Discussion <span>3 comments</span></h2>
+        <%= form_for([@idea, @comment], html: { class: 'comments__input' }) do |form| %>
+          <img class="avatar" src="/images/avatar.png" alt="Avatar">
+          <div class='input-group'>
+            <%= form.label(:body, 'Add a comment', class: 'input-group__label') %>
+            <%= form.text_area(:body, class: 'input-group__field') %>
+          </div>
+          <%= form.submit('Post', class: 'btn btn-primary') %>
+        <% end %>
+      </div>
+    </div>
   </div>
 </main>
