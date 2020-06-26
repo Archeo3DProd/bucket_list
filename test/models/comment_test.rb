@@ -18,4 +18,18 @@ class CommentTest < ActiveSupport::TestCase
 
     assert_equal second_idea, Comment.first.idea
   end
+
+  test 'cascading save' do
+    idea = Idea.new
+    idea.title = 'Cascading save test'
+    idea.save!
+
+    comment = Comment.new(body: 'Great idea!')
+
+    idea.comments << comment
+
+    idea.save!
+
+    assert_equal Comment.first.body, 'Great idea!'
+  end
 end
