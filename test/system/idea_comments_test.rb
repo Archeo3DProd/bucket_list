@@ -12,5 +12,7 @@ class IdeaCommentsTest < ApplicationSystemTestCase
     click_on('Post', match: :first)
 
     assert current_path.include?(ideas_path)
+
+    assert page.has_content?('This is a comment')
   end
 end
