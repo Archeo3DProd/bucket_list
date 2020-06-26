@@ -4,9 +4,10 @@ class IdeasTest < ApplicationSystemTestCase
 
   test 'create new idea' do
     visit (new_idea_path)
-    fill_in 'title', with: 'Visit the Hermitage Museum'
-    fill_in 'done_count', with: 6164
-    click_on 'Create idea'
+    fill_in 'Title', with: 'Visit the Hermitage Museum'
+    fill_in 'Done count', with: 6164
+    fill_in 'Photo url', with: 'creme.jpg'
+    click_on 'Create Idea'
     assert page.has_content?('Visit the Hermitage Museum')
   end
 
@@ -26,6 +27,7 @@ class IdeasTest < ApplicationSystemTestCase
 
   test 'edit idea' do
     idea = Idea.new
+    idea.title = 'Title'
     idea.save!
 
     visit(edit_idea_path(idea))
@@ -33,12 +35,10 @@ class IdeasTest < ApplicationSystemTestCase
     fill_in('Done count', with: 777)
     fill_in('Title', with: 'Edit Test Title')
 
-    click_on 'Update'
-
+    click_on('Update')
     click_on('Edit Test Title')
 
     assert page.has_content?('Edit Test Title')
-
     assert page.has_content?('777 have done this')
   end
 
@@ -94,5 +94,24 @@ class IdeasTest < ApplicationSystemTestCase
     assert page.has_content?('Visit Provence')
 
     refute page.has_content?('Overnight hike in Switzerland')
+  end
+
+  test 'for title is too long' do
+    visit(new_idea_path)
+    idea = Idea.new
+    fill_in('Title', with: '1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890')
+    fill_in('Done count', with: '1234')
+    click_on('Create Idea')
+    assert page.has_content?('Title is too long')
+  end
+
+  test 'for update invalid title' do
+    idea = Idea.new
+    idea.title = 'Update title test'
+    idea.save!
+    visit(edit_idea_path(idea))
+    fill_in('Title', with: '1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890')
+    click_on('Update Idea')
+    assert page.has_content?('Title is too long')
   end
 end

@@ -4,8 +4,10 @@ class IdeaTest < ActiveSupport::TestCase
 
   test 'the first Idea created is first on the list' do
     first_idea = Idea.new
+    first_idea.title = 'Title'
     first_idea.save!
     second_idea = Idea.new
+    second_idea.title = 'Title'
     second_idea.save!
     assert_equal(first_idea, Idea.all.first)
   end
@@ -36,6 +38,7 @@ class IdeaTest < ActiveSupport::TestCase
 
   test 'updated_at is changed after updating done_count' do
     idea = Idea.new
+    idea.title = 'Title'
     idea.done_count = 216
     idea.save!
     first_updated_at = idea.updated_at
@@ -47,6 +50,7 @@ class IdeaTest < ActiveSupport::TestCase
   test 'updated_at is changed after updating photo_url' do
     idea = Idea.new
     idea.photo_url = '/images/swimmers.jpg'
+    idea.title = 'Title'
     idea.save!
     first_updated_at = idea.updated_at
     idea.photo_url = '/images/runners.jpg'
@@ -123,5 +127,18 @@ class IdeaTest < ActiveSupport::TestCase
     idea_2.description = 'See the Dolomites and Italian Alps'
     idea_2.save!
     assert_equal Idea.search('mountains').length, 2
+  end
+
+  test 'maximum title length' do
+    idea = Idea.new
+    idea.title = '1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890'
+    idea.save
+    assert idea.invalid?
+  end
+
+  test 'title presence' do
+    idea = Idea.new
+    idea.save
+    assert idea.invalid?
   end
 end
