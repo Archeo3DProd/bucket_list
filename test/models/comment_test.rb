@@ -32,4 +32,26 @@ class CommentTest < ActiveSupport::TestCase
 
     assert_equal Comment.first.body, 'Great idea!'
   end
+
+  test 'comments are ordered correctly' do
+    idea = Idea.new
+    idea.title = 'Oredered comments'
+    idea.save!
+
+    comment_1 = Comment.new(body: 'This would be great fun')
+
+    comment_2 = Comment.new(body: 'I agree!')
+
+    idea.comments << comment_1
+
+    idea.comments << comment_2
+
+    idea.save!
+
+    assert_equal idea.comments.first.body, comment_1.body
+
+    assert_equal idea.comments.count, 2
+
+
+  end
 end
