@@ -7,9 +7,9 @@ class IdeaCommentsTest < ApplicationSystemTestCase
 
     visit(idea_path(idea))
 
-    fill_in 'comment_body', with: 'This is a comment'
+    fill_in 'Add a comment', with: 'This is a comment'
 
-    click_on 'Post'
+    click_on('Post', match: :first)
 
     assert current_path.include?(ideas_path)
   end

@@ -70,6 +70,18 @@
           </div>
           <%= form.submit('Post', class: 'btn btn-primary') %>
         <% end %>
+
+        <ul class="comments__listing">
+          <% @idea.comments.each do |comment| %>
+          <li class="comment">
+            <img class="avatar" src="/images/avatar.png" alt="">
+            <div class="comment__body">
+              <h3 class="comment__title">Tom Jenkinson <time datetime="2017-08-28T13:48">Today</time></h3>
+              <p><%= comment.body %></p>
+            </div>
+          </li>
+          <% end %>
+        </ul>
       </div>
     </div>
   </div>
