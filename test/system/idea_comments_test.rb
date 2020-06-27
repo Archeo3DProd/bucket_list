@@ -8,10 +8,13 @@ class IdeaCommentsTest < ApplicationSystemTestCase
     visit(idea_path(idea))
 
     fill_in 'Add a comment', with: 'This is a comment'
+        sleep 8
 
     click_on('Post', match: :first)
 
     assert current_path.include?(ideas_path)
+
+    sleep 8
 
     assert page.has_content?('This is a comment')
   end

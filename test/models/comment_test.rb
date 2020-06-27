@@ -6,7 +6,7 @@ class CommentTest < ActiveSupport::TestCase
     first_idea.title = 'Changing the associated Idea for a Comment'
     first_idea.save!
 
-    comment = Comment.new(body: "I'd like to do this!", idea: first_idea)
+    comment = Comment.new(body: "I'd like to do this!", idea: first_idea, user: User.new)
     comment.save!
 
     second_idea = Idea.new
@@ -24,7 +24,7 @@ class CommentTest < ActiveSupport::TestCase
     idea.title = 'Cascading save test'
     idea.save!
 
-    comment = Comment.new(body: 'Great idea!')
+    comment = Comment.new(body: 'Great idea!', user: User.new)
 
     idea.comments << comment
 
@@ -38,9 +38,9 @@ class CommentTest < ActiveSupport::TestCase
     idea.title = 'Ordered comments'
     idea.save!
 
-    comment_1 = Comment.new(body: 'This would be great fun')
+    comment_1 = Comment.new(body: 'This would be great fun', user: User.new)
 
-    comment_2 = Comment.new(body: 'I agree!')
+    comment_2 = Comment.new(body: 'I agree!', user: User.new)
 
     idea.comments << comment_1
 
