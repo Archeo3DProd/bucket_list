@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_26_094013) do
+ActiveRecord::Schema.define(version: 2020_06_26_175439) do
 
   create_table "comments", force: :cascade do |t|
     t.string "body"
@@ -27,6 +27,12 @@ ActiveRecord::Schema.define(version: 2020_06_26_094013) do
     t.integer "done_count"
     t.string "photo_url"
     t.string "description"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "email"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   add_foreign_key "comments", "ideas"
